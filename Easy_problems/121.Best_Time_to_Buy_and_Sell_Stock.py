@@ -10,7 +10,7 @@ class Solution(object):
         - We traverse the array while keeping track of the **minimum price seen so far**.
         - On each day, we calculate the **potential profit** if we were to sell at the current day's price.
         - We update the **maximum profit** whenever we find a new higher profit.
-        - If the stock price is lower than the minimum price, we update the minimum price.
+        - If the stock price is ln ower than the minimum price, we update the minimum price.
 
         Edge Cases:
         - If there is only one price, no profit can be made.
